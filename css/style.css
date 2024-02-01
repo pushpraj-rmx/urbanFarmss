@@ -12336,13 +12336,30 @@ fieldset:disabled .btn {
   position: relative;
   padding: 0;
   border: 0;
-  background-color: transparent;
-  color: #222222;
+  background-color: white;
+  color: black;
   font-weight: 400;
   text-decoration: none;
 }
+
 .btn-link:hover {
   color: #1b1b1b;
+}
+
+.btn-link.custom {
+  display: inline-block;
+  position: relative;
+  padding: 2px 10px;
+  border: 0;
+  background-color: black;
+  /* color: #fff; */
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 13px;
+  color: white;
+}
+.btn-link:hover {
+  color: lightgreen;
 }
 .btn-link:disabled,
 .btn-link.disabled {
@@ -16195,7 +16212,7 @@ textarea.form-control.is-invalid {
 .header {
   display: none;
   position: relative;
-  background-color: #f6f8e5;
+  background-color: rgb(255, 246, 244);
   z-index: 2;
 }
 .header .form-select {
@@ -20655,4 +20672,10 @@ ul.social-links.list-unstyled.custom_header {
   margin-bottom: 0;
 }
 
-.social-links list-unstyled d-flex flex-wrap mb-0
+.header-top.d-flex.bg-green.color-white.align-items-center {
+  height: 30px;
+}
+
+.navigation__list.list-unstyled.d-flex li a {
+  color: #004818 !important;
+}
