@@ -20592,7 +20592,7 @@ body.coming-soon-page .header {
   max-height: 43.75rem;
 }
 .video-banner:before {
-  content: '';
+  /* content: ''; */
   display: block;
   width: 100%;
   height: 100%;
@@ -20631,6 +20631,47 @@ body.coming-soon-page .header {
     font-size: 1.25rem;
   }
 }
+
+@media (max-width: 991px) {
+  .header-mobile .container.d-flex.align-items-center.h-100 {
+
+  margin-top: -25px;
+  }
+
+  .image-banner__content .offer-banner {
+    flex-direction:column;
+  } 
+
+  button.pc__btn-wl.bg-transparent.js-add-wishlist {
+    display: none;
+  }
+
+  button.btn-link.btn-link_lg.me-auto.text-uppercase.js-quick-view.custom{
+    display: none;
+  }
+
+  .video-banner {
+    height: 300px;
+  }
+  
+  .image-banner.custom {
+    min-height: 200px;
+  }
+
+  .category_custom.mobile-custom {
+    flex-direction: column !important; 
+  }
+
+
+}
+
+
+.text_dash_half::before {
+    display: none;
+}
+
+
+
 .btn-video-player svg {
   display: block;
 }

@@ -215,3 +215,15 @@
     }
   }
   
+
+  .category-carousel .swiper-wrapper .swiper-slide img {
+    /* max-width: 100% !important; */
+    height: 130px !important;
+    width: 130px !important;
+    border-radius: 100% !important;
+  }
+
+  .category-carousel .swiper-wrapper {
+    /* align-items: center !important;
+    justify-content: center !important; */
+  }
