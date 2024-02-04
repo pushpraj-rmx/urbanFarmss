@@ -20207,7 +20207,7 @@ a.add-to-wishlist.active .flaticon.flaticon-heart {
   display: block;
   width: 1.5rem;
   height: 1.5rem;
-  border: 0.3rem solid #fff;
+  border: 0.3rem solid #0005;
   background-color: #b9a16b;
   border-radius: 1rem;
 }
@@ -20220,7 +20220,7 @@ a.add-to-wishlist.active .flaticon.flaticon-heart {
   }
 }
 .popover-point.type2 > span {
-  background-color: #ffffff;
+  background-color: #0002;
   border-radius: 3rem;
   border: 0;
   line-height: 1;
@@ -20229,7 +20229,7 @@ a.add-to-wishlist.active .flaticon.flaticon-heart {
   justify-content: center;
   width: 0.625rem;
   height: 0.625rem;
-  box-shadow: 0 0 0 0.2625rem rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 0.2625rem rgba(0, 0, 0, 0.5);
   font-size: 0.5625rem;
   padding-bottom: 0.05rem;
 }
@@ -20251,7 +20251,7 @@ a.add-to-wishlist.active .flaticon.flaticon-heart {
   }
 }
 .popover-point.type3 > span {
-  background-color: #ffffff;
+  background-color: #0005;
   border-radius: 3rem;
   border: 0;
   line-height: 1;
